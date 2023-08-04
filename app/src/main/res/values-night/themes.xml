@@ -4,4 +4,8 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+
+    <style name="ActivityTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowBackground">@android:color/holo_red_dark</item>
+    </style>
 </resources>
