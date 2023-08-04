@@ -8,6 +8,7 @@
     <style name="Theme.AndroidWindowAttributesTest" parent="Base.Theme.AndroidWindowAttributesTest" />
 
     <style name="ActivityTheme" parent="Theme.AppCompat.DayNight">
-
+<!--        <item name="android:windowContentOverlay">@drawable/noun_high_five_2958238</item>-->
+        <item name="android:windowContentOverlay">@android:color/holo_red_light</item>
     </style>
 </resources>
