@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.AndroidWindowAttributesTest" parent="Base.Theme.AndroidWindowAttributesTest" />
+
+    <style name="ActivityTheme" parent="Theme.AppCompat.DayNight">
+
+    </style>
 </resources>
