@@ -11,4 +11,11 @@
         <item name="android:windowFullscreen">true</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="ActivityTheme2" parent="Theme.AppCompat.DayNight">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
 </resources>

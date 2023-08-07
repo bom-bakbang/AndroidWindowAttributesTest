@@ -1,5 +1,6 @@
 package com.example.androidwindowattributestest
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.view.WindowCompat
@@ -10,12 +11,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val windowInsetsController =
-            WindowCompat.getInsetsController(window, window.decorView)
-        // Configure the behavior of the hidden system bars.
-        windowInsetsController.systemBarsBehavior =
-            WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-
-        windowInsetsController.hide(WindowInsetsCompat.Type.systemBars())
+        startActivity(Intent(this ,MainActivity2::class.java))
     }
 }

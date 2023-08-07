@@ -13,9 +13,13 @@
         android:theme="@style/Theme.AndroidWindowAttributesTest"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:theme="@style/ActivityTheme2" />
+        <activity
             android:name=".MainActivity"
-            android:theme="@style/ActivityTheme"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/ActivityTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
